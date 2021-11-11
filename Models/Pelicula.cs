@@ -9,7 +9,7 @@ namespace AZURE_FINAL.Models
 {
     public class Pelicula
     {
-        [JsonProperty(PropertyName = "id")]
+        [JsonProperty(PropertyName = "ID")]
           [Display(Name="ID")]
         public String Id { get; set; }
          [Display(Name="NOMBRE")]
